@@ -37,7 +37,8 @@ Add these lines in your `/etc/nginx/nginx.conf` :
     }
 
 Then restart Nginx :
-	systemctl restart nginx
+
+    systemctl restart nginx
 
 ### Notes on the run command
 
