@@ -29,7 +29,7 @@ name which is `captnbp/docker-cgiproxy:latest`.
     sudo docker stop <container_id>
 
 ## Using CGI proxy with Nginx
-Add these lines in your /etc/nginx/nginx.conf :
+Add these lines in your `/etc/nginx/nginx.conf` :
 
     location /secret/ {
         fastcgi_pass   unix:/tmp/cgiproxy/cgiproxy.fcgi.socket;
